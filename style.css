@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family:"Red_Hat-medium" ;
+    src: url("Red_Hat_Display/static/RedHatDisplay-Medium.ttf");
+}
+@font-face {
+    font-family:"Red_Hat-Bold" ;
+    src: url("Red_Hat_Display/static/RedHatDisplay-Bold.ttf");
+}
+@font-face {
+    font-family:"Red_Hat-Black" ;
+    src: url("Red_Hat_Display/static/RedHatDisplay-Black.ttf");
+}
+
+
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+    padding-top: 3rem;
+}
+main{
+    width: 22rem;
+    border-radius: 0.5rem;
+    background-color: hsl(225, 100%, 98%);
+    margin: auto;
+    box-shadow: 0px 8px 32px rgb(0 0 0 / 11%);
+}
+#illustration-hero{
+    width: 22rem;
+    border-radius: 0.5rem 0.5rem 0 0 ;
+}
+.content-main{
+    padding: 1rem;
+}
+article{
+    text-align: center;
+}
+#title-order{
+    font-family:"Red_Hat-Black" ;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 0.7rem;
+}
+#paragraph-order{
+    font-family:"Red_Hat-medium" ;
+    color: hsl(224, 23%, 55%);
+    font-size: 0.8rem;
+    width: 80%;
+    margin: auto;
+    line-height: 1.2rem;
+    margin-bottom: 1.3rem;
+}
+.plan-price-content{
+    background-color: hsla(225, 100%, 94%, 0.426);
+    border-radius: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.plan-flex-box{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+#title-plan{
+    font-family:"Red_Hat-Black" ;
+    color: hsl(223, 47%, 23%);;
+}
+#price-plan{
+    font-family:"Red_Hat-medium" ;
+    color: hsla(224, 23%, 55%, 0.734);
+}
+
+#change-link{
+    color:hsl(245, 75%, 52%);
+    font-family:"Red_Hat-Bold" ;
+    font-size: 0.8rem;
+}
+#button-payment{
+    width: 100%;
+    padding: 0.8rem 0;
+    margin-top: 1.5rem;
+    border-radius: 0.5rem ;
+    border: none;
+    background-color:hsl(245, 75%, 52%) ;
+    font-family:"Red_Hat-Bold" ;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 1.2rem;
+    box-shadow: 0px 5px 17px hsl(245deg 65% 50% / 47%);
+}
+#button-payment:hover{
+    background-color:hsl(245, 81%, 44%) ;
+}
+#cancel-order{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color:hsl(245, 75%, 52%);
+    font-family:"Red_Hat-Bold" ;
+    font-size: 0.8rem;
+}
+
+.attribution { 
+    margin-top: 1rem;
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}

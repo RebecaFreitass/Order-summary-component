@@ -2,44 +2,41 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Order summary card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <main>
-    <article>
-      <h2 id="title-order">Order Summary</h2>
-      <p id="paragraph-order">
-        You can now listen to millions of songs, audiobooks, and podcasts on any
-        device anywhere you like!
-      </p>
-    </article>
-    <section class="plan-price-content">
-      <div class="plan-flex-box">
-        <img src="images/icon-music.svg" alt="">
-        <h4 id="title-plan">Annual Plan</h4>
-        <p id="price-plan">$59.99/year</p>
-      </div>
-      <a href="#" id="change-link">Change</a>
+  <img src="images/illustration-hero.svg" alt="" id="illustration-hero">
+    <section class="content-main">
+      <article>
+        <h2 id="title-order">Order Summary</h2>
+        <p id="paragraph-order">
+          You can now listen to millions of songs, audiobooks, and podcasts on any
+          device anywhere you like!
+        </p>
+      </article>
+      <section class="plan-price-content">
+        <div class="plan-flex-box">
+          <img src="images/icon-music.svg" alt="">
+          <article id="artc-plan">
+            <h4 id="title-plan">Annual Plan</h4>
+            <p id="price-plan">$59.99/year</p>
+          </article>
+        </div>
+        <a href="#" id="change-link">Change</a>
+      </section>
+      <button type="button" id="button-payment">Proceed to Payment</button>
+      <a href="#" id="cancel-order">
+        <p>Cancel Order</p>
+      </a>
     </section>
-    <button type="button" id="button-payment">Proceed to Payment</button>
-    <a href="#" id="cancel-order">
-      <p>Cancel Order</p>
-    </a>
-  
 </main>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/RebecaFreitass">Rebeca Freitas</a>.
   </div>
 </body>
 </html>
